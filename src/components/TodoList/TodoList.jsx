@@ -18,7 +18,7 @@ class TodoList extends Component {
 
   render() {
     return (
-      <div className="TodoList">{this.getTodo()}</div>
+      <ul className="TodoList">{this.getTodo()}</ul>
     )
   }
 }
